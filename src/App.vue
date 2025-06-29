@@ -5,27 +5,12 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
-// Import all assets for portfolioItems
-import amirPoster1 from './assets/work/AmirBuilding/poster1.jpg'
-import amirPoster2 from './assets/work/AmirBuilding/poster2.jpg'
-import amirMotion from './assets/work/AmirBuilding/motion.mp4'
-import neighbours1 from './assets/work/neighbours/1.jpg'
-import neighbours2 from './assets/work/neighbours/2.jpg'
-import neighbours3 from './assets/work/neighbours/3.jpg'
-import expressionsTrio from './assets/work/expressions/trio.jpg'
-import animal from './assets/work/drawings/animal.png'
-import jointBooklet from './assets/work/joint/booklet.mp4'
-import jointPoster from './assets/work/joint/poster.jpg'
-import jointFreeKick from './assets/work/joint/free-kick.mp4'
-import signify from './assets/work/signify/signify.mp4'
-import finalVideo from './assets/work/video/final-video.mp4'
-
 const portfolioItems = [
     {
         media: [
-            { type: "image", src: amirPoster1 },
-            { type: "image", src: amirPoster2 },
-            { type: "video", src: amirMotion }
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/AmirBuilding/poster1.jpg" },
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/AmirBuilding/poster2.jpg" },
+            { type: "video", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/AmirBuilding/motion.mp4" }
         ],
         mediaLayout: [
             { type: "row", items: [0, 1] },
@@ -37,9 +22,9 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "image", src: neighbours1 },
-            { type: "image", src: neighbours2 },
-            { type: "image", src: neighbours3 }
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/neighbours/1.jpg" },
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/neighbours/2.jpg" },
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/neighbours/3.jpg" }
         ],
         mediaLayout: [
             { type: "single", items: [0] },
@@ -51,7 +36,7 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "image", src: expressionsTrio }
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/expressions/trio.jpg" }
         ],
         title: "A series of illustrations for expressions from different languages",
         subtitle: "Illustrative language B | Shimrit Elkanati | 2nd year | 2025",
@@ -59,7 +44,7 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "image", src: animal }
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/drawings/animal.png" }
         ],
         title: "Animal in a surprising environment (Riso print) ",
         subtitle: "Illustration B | Hila Noam | 2nd year | 2025",
@@ -67,9 +52,9 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "video", src: jointBooklet },
-            { type: "image", src: jointPoster },
-            { type: "video", src: jointFreeKick }
+            { type: "video", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/joint/booklet.mp4" },
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/joint/poster.jpg" },
+            { type: "video", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/joint/free-kick.mp4" }
         ],
         title: "Graphic system - Booklet, Poster and Mini-site",
         subtitle: "Graphic typographic design 03 | Michal Sahar | 2nd year | 2025",
@@ -77,7 +62,7 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "video", src: signify }
+            { type: "video", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/signify/signify.mp4" }
         ],
         title: "Prototype for the 'Signify' app – translate app including sign languages",
         subtitle: "Introduction to Digital Products | Mihchal Har-Gev | 2nd year | 2025",
@@ -85,7 +70,7 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "video", src: finalVideo }
+            { type: "video", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/video/final-video.mp4" }
         ],
         title: "Title sequence - The Gravedigger (in Hebrew, same word as The beekeeper)",
         subtitle: "Video for Designers | Ari Amit | 2nd year | 2025",
