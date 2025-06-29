@@ -1,0 +1,5 @@
+name = "noga-reshef-portfolio"
+compatibility_date = "2025-06-29"
+
+[assets]          # Wrangler v4 syntax; for v3 use [site]/bucket
+directory = "./dist"
