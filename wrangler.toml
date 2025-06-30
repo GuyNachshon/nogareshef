@@ -1,4 +1,4 @@
-name = "noga-reshef-portfolio"
+name = "noga-reshef"
 compatibility_date = "2025-06-29"
 
 [assets]          # Wrangler v4 syntax; for v3 use [site]/bucket
