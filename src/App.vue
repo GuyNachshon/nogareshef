@@ -36,7 +36,7 @@ const portfolioItems = [
     },
     {
         media: [
-            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/expressions/trio.jpg" }
+            { type: "image", src: "https://pub-fee2f60035714c389aed790a5180b8a8.r2.dev/expressions/trio.png" }
         ],
         title: "A series of illustrations for expressions from different languages",
         subtitle: "Illustrative language B | Shimrit Elkanati | 2nd year | 2025",
