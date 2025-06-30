@@ -320,7 +320,6 @@ onBeforeUnmount(() => {
     background: none;
     pointer-events: auto;
     text-align: left;
-    height: 50px;
 }
 
 .drawing {
@@ -332,9 +331,9 @@ onBeforeUnmount(() => {
 }
 
 .drawing img {
-    // width: 400px;
-    // height: 600px;
-    // object-fit: cover;
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
     display: block;
     background: #111;
 }
@@ -367,5 +366,110 @@ onBeforeUnmount(() => {
   text-align: center;
   font-style: italic;
   min-height: 50px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar {
+        height: 50px;
+        padding: 0 16px;
+    }
+
+    .navabar__title {
+        font-size: 14px;
+    }
+
+    .navabar__link {
+        font-size: 14px;
+    }
+
+    .two-col-container {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .info-box {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        flex: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 16px 20px;
+        background: rgba(0,0,0,0.9);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        pointer-events: auto;
+    }
+
+    .media-column {
+        flex: none;
+        width: 100%;
+        padding: 16px 16px 80px 16px;
+    }
+
+    .media-section {
+        margin-bottom: 5vh;
+        gap: 16px;
+    }
+
+    .media-item img,
+    .media-item video {
+        max-height: 70vh;
+    }
+
+    .info-title {
+        font-size: 16px;
+        margin-bottom: 0.25rem;
+    }
+
+    .info-subtitle {
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-description {
+        font-size: 14px;
+    }
+
+    .media-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .expressions-row {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .expressions-col {
+        width: 100%;
+    }
+
+    .expressions-img {
+        width: 100%;
+        height: auto;
+        max-height: 60vh;
+    }
+
+    .drawing img {
+        width: 100%;
+        height: auto;
+        max-height: 60vh;
+    }
+
+    .media-description {
+        font-size: 11px;
+        margin-top: 6px;
+    }
+
+    .expressions-caption {
+        font-size: 12px;
+        margin-top: 8px;
+        min-height: 40px;
+    }
 }
 </style>
